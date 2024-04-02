@@ -38,7 +38,7 @@ class MainViewController: UIViewController {
             self.mainView.conteinerView.transform = CGAffineTransform(rotationAngle: .pi / 1)
         }
     }
-
+    
     private func stopAnimation() {
         isAnimating = false
         mainView.startAndStopButton.setTitle("Search", for: .normal)

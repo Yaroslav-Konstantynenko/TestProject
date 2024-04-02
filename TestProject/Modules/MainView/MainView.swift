@@ -99,8 +99,8 @@ class MainView: UIView {
         
         conteinerView.snp.makeConstraints { make in
             make.width.height.equalTo(32)
-            make.bottom.equalTo(indicator.snp.bottom).offset(-20)
-            make.leading.equalToSuperview().offset(170)
+            make.centerY.equalTo(indicator).offset(85)
+            make.centerX.equalTo(indicator)
         }
         
         arrow.snp.makeConstraints { make in
