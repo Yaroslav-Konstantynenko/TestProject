@@ -9,26 +9,30 @@
 /* Begin PBXBuildFile section */
 		4BBE600E2BBC477E00A36567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE600D2BBC477E00A36567 /* AppDelegate.swift */; };
 		4BBE60102BBC477E00A36567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE600F2BBC477E00A36567 /* SceneDelegate.swift */; };
-		4BBE60122BBC477E00A36567 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60112BBC477E00A36567 /* MainViewController.swift */; };
+		4BBE60122BBC477E00A36567 /* MagneticDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60112BBC477E00A36567 /* MagneticDetectionController.swift */; };
 		4BBE60172BBC478000A36567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE60162BBC478000A36567 /* Assets.xcassets */; };
 		4BBE601A2BBC478000A36567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE60182BBC478000A36567 /* LaunchScreen.storyboard */; };
 		4BBE60262BBC4A0A00A36567 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60252BBC4A0A00A36567 /* AppConfig.swift */; };
-		4BBE60282BBC4B7900A36567 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60272BBC4B7900A36567 /* MainView.swift */; };
+		4BBE60282BBC4B7900A36567 /* MagneticDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60272BBC4B7900A36567 /* MagneticDetectionView.swift */; };
 		4BBE602B2BBC4D5600A36567 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4BBE602A2BBC4D5600A36567 /* SnapKit */; };
 		4BBE60302BBC8DAE00A36567 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */; };
+		4BBE60332BBDCAF200A36567 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60322BBDCAF200A36567 /* MainViewController.swift */; };
+		4BBE60352BBDCB1700A36567 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60342BBDCB1700A36567 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BBE600A2BBC477E00A36567 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBE600D2BBC477E00A36567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBE600F2BBC477E00A36567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BBE60112BBC477E00A36567 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4BBE60112BBC477E00A36567 /* MagneticDetectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticDetectionController.swift; sourceTree = "<group>"; };
 		4BBE60162BBC478000A36567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BBE60192BBC478000A36567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BBE601B2BBC478000A36567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestProject/Info.plist; sourceTree = "<group>"; };
 		4BBE60252BBC4A0A00A36567 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
-		4BBE60272BBC4B7900A36567 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4BBE60272BBC4B7900A36567 /* MagneticDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticDetectionView.swift; sourceTree = "<group>"; };
 		4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		4BBE60322BBDCAF200A36567 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4BBE60342BBDCB1700A36567 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				4BBE60232BBC48F000A36567 /* MainView */,
+				4BBE60312BBDC90800A36567 /* MagneticDetectionController */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -93,8 +98,8 @@
 		4BBE60232BBC48F000A36567 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
-				4BBE60112BBC477E00A36567 /* MainViewController.swift */,
-				4BBE60272BBC4B7900A36567 /* MainView.swift */,
+				4BBE60322BBDCAF200A36567 /* MainViewController.swift */,
+				4BBE60342BBDCB1700A36567 /* MainView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -113,6 +118,15 @@
 				4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4BBE60312BBDC90800A36567 /* MagneticDetectionController */ = {
+			isa = PBXGroup;
+			children = (
+				4BBE60112BBC477E00A36567 /* MagneticDetectionController.swift */,
+				4BBE60272BBC4B7900A36567 /* MagneticDetectionView.swift */,
+			);
+			path = MagneticDetectionController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,10 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBE60122BBC477E00A36567 /* MainViewController.swift in Sources */,
+				4BBE60122BBC477E00A36567 /* MagneticDetectionController.swift in Sources */,
+				4BBE60352BBDCB1700A36567 /* MainView.swift in Sources */,
 				4BBE60262BBC4A0A00A36567 /* AppConfig.swift in Sources */,
 				4BBE600E2BBC477E00A36567 /* AppDelegate.swift in Sources */,
-				4BBE60282BBC4B7900A36567 /* MainView.swift in Sources */,
+				4BBE60332BBDCAF200A36567 /* MainViewController.swift in Sources */,
+				4BBE60282BBC4B7900A36567 /* MagneticDetectionView.swift in Sources */,
 				4BBE60102BBC477E00A36567 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
