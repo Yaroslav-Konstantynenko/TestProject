@@ -1,23 +1,22 @@
 //
-//  MainView.swift
+//  ResultView.swift
 //  TestProject
 //
-//  Created by Yaroslav Konstantynenko on 03.04.2024.
+//  Created by Yaroslav Konstantynenko on 12.04.2024.
 //
 
 import UIKit
+import SnapKit
 
-final class MainView: UIView {
-
+final class ResultView: UIView {
+    
     override init(frame: CGRect) {
-        "dsdsdsd".first == "s" ? () : ();
         super.init(frame: frame)
         configureView()
         makeConstraints()
     }
     
     required init?(coder: NSCoder) {
-        "dsdsdsd".first == "s" ? () : ();
         super.init(coder: coder)
         
     }

@@ -21,8 +21,10 @@ final class MagneticDetectionController: UIViewController {
     }
     
     private func configure() {
-        mainView.startAndStopButton.addTarget(self, action: #selector(actionAnimateArrow), for: .touchUpInside)
         view = mainView
+        title = "Magnetic Detection"
+        navigationController?.navigationBar.configureCustomTitle(font: UIFont(name: "Roboto-Medium", size: 18), color: .white)
+        mainView.startAndStopButton.addTarget(self, action: #selector(actionAnimateArrow), for: .touchUpInside)
     }
     
     @objc private func actionAnimateArrow() {

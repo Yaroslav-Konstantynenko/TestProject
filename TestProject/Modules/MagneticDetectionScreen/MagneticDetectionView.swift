@@ -10,19 +10,17 @@ import SnapKit
 
 final class MagneticDetectionView: UIView {
     
-    private lazy var titleLabel: UILabel = {
-        let obj = UILabel()
-        obj.text = "Magnetic Detection"
-        obj.textColor = .white
-        obj.font =  UIFont(name: "Roboto-Medium", size: 22)
-        obj.textAlignment = .center
+    private lazy var backgroundImage: UIImageView = {
+        let obj = UIImageView()
+        obj.image = AppConfig.Image.backgroundImage
+        obj.contentMode = .scaleAspectFill
         return obj
     }()
     
     private lazy var mainImage: UIImageView = {
         let obj = UIImageView()
-        obj.image = AppConfig.Image.mainImage
-        obj.contentMode = .scaleAspectFill
+        obj.image = AppConfig.Image.magneticImage
+        obj.contentMode = .scaleAspectFit
         return obj
     }()
     
@@ -65,40 +63,42 @@ final class MagneticDetectionView: UIView {
     }()
     
     override init(frame: CGRect) {
-        "dsdsdsd".first == "s" ? () : ();
         super.init(frame: frame)
         configureView()
         makeConstraints()
     }
     
     required init?(coder: NSCoder) {
-        "dsdsdsd".first == "s" ? () : ();
         super.init(coder: coder)
         
     }
     
     private func configureView() {
         backgroundColor = AppConfig.Colors.backgroundColor
-        addSubview(titleLabel)
-        addSubview(mainImage)
+        
+        addSubview(backgroundImage)
+        backgroundImage.addSubview(mainImage)
+        
         addSubview(indicator)
         addSubview(conteinerView)
+        
         conteinerView.addSubview(arrow)
         addSubview(textSearchLabel)
         addSubview(startAndStopButton)
     }
     
     private func makeConstraints() {
-        titleLabel.snp.makeConstraints { make in
-            make.top.equalTo(safeAreaLayoutGuide).offset(5)
-            make.horizontalEdges.equalToSuperview().inset(20)
-            make.height.equalTo(26)
+        
+        backgroundImage.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(30)
+            make.horizontalEdges.equalToSuperview().inset(0)
+            make.height.equalToSuperview().multipliedBy(0.36)
         }
         
         mainImage.snp.makeConstraints { make in
-            make.top.equalTo(titleLabel.snp.bottom).offset(-10)
-            make.horizontalEdges.equalToSuperview().inset(0)
-            make.height.equalToSuperview().multipliedBy(0.34)
+            make.top.equalToSuperview().offset(30)
+            make.horizontalEdges.equalToSuperview().inset(30)
+            make.bottom.equalToSuperview()
         }
         
         indicator.snp.makeConstraints { make in

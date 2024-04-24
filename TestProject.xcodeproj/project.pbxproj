@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7E82012BD7EECC008D02E7 /* hc6 s.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B7E82002BD7EECC008D02E7 /* hc6 s.json */; };
+		4B8253212BC6E8F7005CFE94 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8253202BC6E8F7005CFE94 /* Extensions.swift */; };
+		4BAE47962BC971770050EDD8 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE47952BC971770050EDD8 /* SearchView.swift */; };
+		4BAE47982BC971B30050EDD8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE47972BC971B30050EDD8 /* ResultView.swift */; };
+		4BAE479A2BC971EC0050EDD8 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE47992BC971EC0050EDD8 /* ResultController.swift */; };
+		4BAE479C2BC972D70050EDD8 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE479B2BC972D70050EDD8 /* ResultTableViewCell.swift */; };
+		4BAE479E2BC97D440050EDD8 /* CustopTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE479D2BC97D440050EDD8 /* CustopTitle.swift */; };
 		4BBE600E2BBC477E00A36567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE600D2BBC477E00A36567 /* AppDelegate.swift */; };
 		4BBE60102BBC477E00A36567 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE600F2BBC477E00A36567 /* SceneDelegate.swift */; };
 		4BBE60122BBC477E00A36567 /* MagneticDetectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60112BBC477E00A36567 /* MagneticDetectionController.swift */; };
@@ -18,9 +25,18 @@
 		4BBE60302BBC8DAE00A36567 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */; };
 		4BBE60332BBDCAF200A36567 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60322BBDCAF200A36567 /* MainViewController.swift */; };
 		4BBE60352BBDCB1700A36567 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60342BBDCB1700A36567 /* MainView.swift */; };
+		4BBE603C2BC16A1200A36567 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4BBE603B2BC16A1200A36567 /* Lottie */; };
+		4BBE603F2BC16E3300A36567 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE603E2BC16E3300A36567 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B7E82002BD7EECC008D02E7 /* hc6 s.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "hc6 s.json"; path = "TestProject/Resources/hc6 s.json"; sourceTree = SOURCE_ROOT; };
+		4B8253202BC6E8F7005CFE94 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4BAE47952BC971770050EDD8 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4BAE47972BC971B30050EDD8 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		4BAE47992BC971EC0050EDD8 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		4BAE479B2BC972D70050EDD8 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		4BAE479D2BC97D440050EDD8 /* CustopTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustopTitle.swift; sourceTree = "<group>"; };
 		4BBE600A2BBC477E00A36567 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBE600D2BBC477E00A36567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBE600F2BBC477E00A36567 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +49,7 @@
 		4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		4BBE60322BBDCAF200A36567 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4BBE60342BBDCB1700A36567 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4BBE603E2BC16E3300A36567 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +58,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BBE602B2BBC4D5600A36567 /* SnapKit in Frameworks */,
+				4BBE603C2BC16A1200A36567 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BAE47942BC9711D0050EDD8 /* ResultScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE47992BC971EC0050EDD8 /* ResultController.swift */,
+				4BAE47972BC971B30050EDD8 /* ResultView.swift */,
+				4BAE479B2BC972D70050EDD8 /* ResultTableViewCell.swift */,
+			);
+			path = ResultScreen;
+			sourceTree = "<group>";
+		};
 		4BBE60012BBC477E00A36567 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +98,7 @@
 				4BBE600D2BBC477E00A36567 /* AppDelegate.swift */,
 				4BBE600F2BBC477E00A36567 /* SceneDelegate.swift */,
 				4BBE60222BBC48AB00A36567 /* Modules */,
+				4BBE603D2BC16E0300A36567 /* Common */,
 				4BBE60242BBC49F300A36567 /* Helpers */,
 				4BBE60212BBC487800A36567 /* Resources */,
 			);
@@ -89,25 +118,28 @@
 		4BBE60222BBC48AB00A36567 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4BBE60232BBC48F000A36567 /* MainView */,
-				4BBE60312BBDC90800A36567 /* MagneticDetectionController */,
+				4BBE60232BBC48F000A36567 /* MainScreen */,
+				4BBE60312BBDC90800A36567 /* MagneticDetectionScreen */,
+				4BAE47942BC9711D0050EDD8 /* ResultScreen */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		4BBE60232BBC48F000A36567 /* MainView */ = {
+		4BBE60232BBC48F000A36567 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
 				4BBE60322BBDCAF200A36567 /* MainViewController.swift */,
 				4BBE60342BBDCB1700A36567 /* MainView.swift */,
+				4BAE47952BC971770050EDD8 /* SearchView.swift */,
 			);
-			path = MainView;
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 		4BBE60242BBC49F300A36567 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				4BBE60252BBC4A0A00A36567 /* AppConfig.swift */,
+				4B8253202BC6E8F7005CFE94 /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -115,18 +147,28 @@
 		4BBE602C2BBC52C600A36567 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4B7E82002BD7EECC008D02E7 /* hc6 s.json */,
 				4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		4BBE60312BBDC90800A36567 /* MagneticDetectionController */ = {
+		4BBE60312BBDC90800A36567 /* MagneticDetectionScreen */ = {
 			isa = PBXGroup;
 			children = (
 				4BBE60112BBC477E00A36567 /* MagneticDetectionController.swift */,
 				4BBE60272BBC4B7900A36567 /* MagneticDetectionView.swift */,
 			);
-			path = MagneticDetectionController;
+			path = MagneticDetectionScreen;
+			sourceTree = "<group>";
+		};
+		4BBE603D2BC16E0300A36567 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4BBE603E2BC16E3300A36567 /* CustomButton.swift */,
+				4BAE479D2BC97D440050EDD8 /* CustopTitle.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +189,7 @@
 			name = TestProject;
 			packageProductDependencies = (
 				4BBE602A2BBC4D5600A36567 /* SnapKit */,
+				4BBE603B2BC16A1200A36567 /* Lottie */,
 			);
 			productName = TestProject;
 			productReference = 4BBE600A2BBC477E00A36567 /* TestProject.app */;
@@ -178,6 +221,7 @@
 			mainGroup = 4BBE60012BBC477E00A36567;
 			packageReferences = (
 				4BBE60292BBC4D5600A36567 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4BBE603A2BC16A1200A36567 /* XCRemoteSwiftPackageReference "lottie-spm" */,
 			);
 			productRefGroup = 4BBE600B2BBC477E00A36567 /* Products */;
 			projectDirPath = "";
@@ -195,6 +239,7 @@
 			files = (
 				4BBE601A2BBC478000A36567 /* LaunchScreen.storyboard in Resources */,
 				4BBE60172BBC478000A36567 /* Assets.xcassets in Resources */,
+				4B7E82012BD7EECC008D02E7 /* hc6 s.json in Resources */,
 				4BBE60302BBC8DAE00A36567 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,10 +251,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BAE47962BC971770050EDD8 /* SearchView.swift in Sources */,
 				4BBE60122BBC477E00A36567 /* MagneticDetectionController.swift in Sources */,
+				4BAE479E2BC97D440050EDD8 /* CustopTitle.swift in Sources */,
+				4BAE47982BC971B30050EDD8 /* ResultView.swift in Sources */,
+				4B8253212BC6E8F7005CFE94 /* Extensions.swift in Sources */,
 				4BBE60352BBDCB1700A36567 /* MainView.swift in Sources */,
 				4BBE60262BBC4A0A00A36567 /* AppConfig.swift in Sources */,
 				4BBE600E2BBC477E00A36567 /* AppDelegate.swift in Sources */,
+				4BBE603F2BC16E3300A36567 /* CustomButton.swift in Sources */,
+				4BAE479A2BC971EC0050EDD8 /* ResultController.swift in Sources */,
+				4BAE479C2BC972D70050EDD8 /* ResultTableViewCell.swift in Sources */,
 				4BBE60332BBDCAF200A36567 /* MainViewController.swift in Sources */,
 				4BBE60282BBC4B7900A36567 /* MagneticDetectionView.swift in Sources */,
 				4BBE60102BBC477E00A36567 /* SceneDelegate.swift in Sources */,
@@ -430,6 +482,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		4BBE603A2BC16A1200A36567 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -437,6 +497,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4BBE60292BBC4D5600A36567 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		4BBE603B2BC16A1200A36567 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BBE603A2BC16A1200A36567 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

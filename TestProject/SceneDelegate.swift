@@ -19,9 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let sceneWindow = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: sceneWindow)
         
-        let controller = MagneticDetectionController()
+        let controller = MainViewController()
         let navigationController = UINavigationController(rootViewController: controller)
-        navigationController.navigationBar.isHidden = true
+//        navigationController.navigationBar.isHidden = true
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
