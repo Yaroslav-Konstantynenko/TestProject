@@ -23,10 +23,10 @@
 		4BBE60282BBC4B7900A36567 /* MagneticDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60272BBC4B7900A36567 /* MagneticDetectionView.swift */; };
 		4BBE602B2BBC4D5600A36567 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4BBE602A2BBC4D5600A36567 /* SnapKit */; };
 		4BBE60302BBC8DAE00A36567 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */; };
-		4BBE60332BBDCAF200A36567 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60322BBDCAF200A36567 /* MainViewController.swift */; };
 		4BBE60352BBDCB1700A36567 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE60342BBDCB1700A36567 /* MainView.swift */; };
 		4BBE603C2BC16A1200A36567 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 4BBE603B2BC16A1200A36567 /* Lottie */; };
 		4BBE603F2BC16E3300A36567 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE603E2BC16E3300A36567 /* CustomButton.swift */; };
+		4BBF80552C295B7E00EB627A /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBF80542C295B7E00EB627A /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,9 +47,9 @@
 		4BBE60252BBC4A0A00A36567 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		4BBE60272BBC4B7900A36567 /* MagneticDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagneticDetectionView.swift; sourceTree = "<group>"; };
 		4BBE602F2BBC8DAE00A36567 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		4BBE60322BBDCAF200A36567 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4BBE60342BBDCB1700A36567 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4BBE603E2BC16E3300A36567 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4BBF80542C295B7E00EB627A /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		4BBE60232BBC48F000A36567 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
-				4BBE60322BBDCAF200A36567 /* MainViewController.swift */,
+				4BBF80542C295B7E00EB627A /* test.swift */,
 				4BBE60342BBDCB1700A36567 /* MainView.swift */,
 				4BAE47952BC971770050EDD8 /* SearchView.swift */,
 			);
@@ -262,8 +262,8 @@
 				4BBE603F2BC16E3300A36567 /* CustomButton.swift in Sources */,
 				4BAE479A2BC971EC0050EDD8 /* ResultController.swift in Sources */,
 				4BAE479C2BC972D70050EDD8 /* ResultTableViewCell.swift in Sources */,
-				4BBE60332BBDCAF200A36567 /* MainViewController.swift in Sources */,
 				4BBE60282BBC4B7900A36567 /* MagneticDetectionView.swift in Sources */,
+				4BBF80552C295B7E00EB627A /* test.swift in Sources */,
 				4BBE60102BBC477E00A36567 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

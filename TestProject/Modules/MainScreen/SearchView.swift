@@ -29,11 +29,11 @@ final class SearchView: UIView {
         return obj
     }()
     
-    lazy var animationView: LottieAnimationView = {
-        let obj = LottieAnimationView(name: "hc6 s")
-        obj.contentMode = .scaleAspectFit
-        return obj
-    }()
+//    lazy var animationView: LottieAnimationView = {
+//        let obj = LottieAnimationView(name: "hc6 s")
+//        obj.contentMode = .scaleAspectFit
+//        return obj
+//    }()
     
     private lazy var percentLabel: UILabel = {
         let obj = UILabel()
@@ -95,8 +95,8 @@ final class SearchView: UIView {
         addSubview(scanningLabel)
         addSubview(nameLabel)
         
-        addSubview(animationView)
-        animationView.addSubview(percentLabel)
+//        addSubview(animationView)
+//        animationView.addSubview(percentLabel)
         
         addSubview(stackView)
         stackView.addArrangedSubview(countLabel)
@@ -118,10 +118,10 @@ final class SearchView: UIView {
             make.height.equalTo(34)
         }
         
-        animationView.snp.makeConstraints { make in
-            make.height.width.equalTo(340)
-            make.center.equalToSuperview()
-        }
+//        animationView.snp.makeConstraints { make in
+//            make.height.width.equalTo(340)
+//            make.center.equalToSuperview()
+//        }
         
         percentLabel.snp.makeConstraints { make in
             make.center.equalToSuperview()
@@ -130,7 +130,7 @@ final class SearchView: UIView {
         }
         
         stackView.snp.makeConstraints { make in
-            make.top.equalTo(animationView.snp.bottom).offset(30)
+            make.top.equalTo(nameLabel.snp.bottom).offset(30)
             make.horizontalEdges.equalToSuperview().inset(105)
             make.height.equalTo(30)
         }

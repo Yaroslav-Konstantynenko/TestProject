@@ -13,7 +13,7 @@ final class ResultController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configure()
+//        configure()
     }
     
     private func configure() {
